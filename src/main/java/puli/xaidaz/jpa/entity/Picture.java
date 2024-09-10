@@ -1,9 +1,9 @@
 package puli.xaidaz.jpa.entity;
 
+import jakarta.persistence.*;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
 
-import javax.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity
@@ -23,7 +23,7 @@ public class Picture {
     @Column(name = "FILEPATH")
     private String filePath;
 
-    @ManyToOne(fetch=FetchType.LAZY)
+    @ManyToOne(fetch= FetchType.LAZY)
     @JoinColumn(name="ALBUM_ID")
     private Album album;
 

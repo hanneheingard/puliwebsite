@@ -1,12 +1,12 @@
 package puli.xaidaz.service;
 
+import jakarta.annotation.PostConstruct;
 import org.apache.commons.io.FileUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 import puli.xaidaz.service.api.FileService;
 
-import javax.annotation.PostConstruct;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.FileAlreadyExistsException;

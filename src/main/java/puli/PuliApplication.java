@@ -1,5 +1,6 @@
 package puli;
 
+import jakarta.servlet.annotation.MultipartConfig;
 import org.apache.catalina.Context;
 import org.apache.catalina.connector.Connector;
 import org.apache.tomcat.util.descriptor.web.SecurityCollection;
@@ -16,8 +17,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
-
-import javax.servlet.annotation.MultipartConfig;
 
 @SpringBootApplication
 @ComponentScan(basePackages = {"puli.xaidaz"})
