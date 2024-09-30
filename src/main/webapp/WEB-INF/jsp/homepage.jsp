@@ -42,7 +42,7 @@
                         <jsp:param name="textKey" value="aboutUs" />
                     </jsp:include>
                     <p class="broedtekst-frontpage">Puli är en fantastisk hund som blir din bästa vän!</p>
-                    <img src="${pageContext.request.contextPath}/images/dogs/2_dogs_field.jpg" style="width: 50%" alt="Img">
+                    <img src="${pageContext.request.contextPath}/images/dogs/dogs_stairs.png" style="width: 50%" alt="Img">
                 </div>
             </div><!-- .col-md-7 close -->
             <div class="col-md-5">
